@@ -479,8 +479,9 @@ button a {
 .gargarroHeader__imgwrap__button {
   position: absolute;
   display: block;
+  width: clamp(100px, 60vw, 350px);
   font-family: "Caudex", serif;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.73rem, 6vw, 3rem);
   border-radius: 30px;
   color: white;
   border-style: none;
