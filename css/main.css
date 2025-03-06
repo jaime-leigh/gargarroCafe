@@ -504,7 +504,7 @@ button a {
     height: 300px;
   }
   .gargarroHeader__imgwrap__hero {
-    height: 600px;
+    height: 730px;
   }
   .gargarroHeader__imgwrap__logo {
     top: -10%;
@@ -560,8 +560,7 @@ button a {
   color: #ffffff;
   text-align: center;
   height: 150%;
-  transform: translateY(-25%);
-  padding: 20rem 0 8rem 0;
+  padding: 1rem 0 8rem 0;
   font-size: 1.3rem;
 }
 .gargarroMain__welcome__leaf {
@@ -582,7 +581,7 @@ button a {
   padding-bottom: 2rem;
 }
 .gargarroMain__info {
-  transform: translateY(-15%);
+  padding: 2rem 0 5rem 0;
   color: #294a44;
   text-align: center;
 }
@@ -624,7 +623,7 @@ button a {
 .gargarroMain__contact {
   background-color: #294a44;
   color: #ffffff;
-  padding: 4rem 0 8rem 0;
+  padding: 1rem 0 8rem 0;
   text-align: center;
 }
 .gargarroMain__contact__title {
@@ -633,6 +632,8 @@ button a {
 }
 .gargarroMain__contact__text {
   font-family: "Catamaran", sans-serif;
+  width: 87%;
+  margin: 0 auto;
 }
 .gargarroMain__contact__leaf {
   width: clamp(2rem, 35vh, 7rem);
@@ -708,9 +709,6 @@ button a {
   margin: 0 auto;
 }
 @media (min-width: 480px) {
-  .gargarroMain__welcome {
-    padding: 15rem 0 8rem 0;
-  }
   .gargarroMain__map__container2 {
     padding-top: 2rem;
   }
@@ -723,21 +721,13 @@ button a {
     max-width: 100px;
   }
 }
-@media (min-width: 590px) {
-  .gargarroMain__welcome {
-    padding: 15rem 0 8rem 0;
-  }
-}
 @media (min-width: 768px) {
-  .gargarroMain__welcome {
-    padding: 6rem 0 8rem 0;
-  }
   .gargarroMain__welcome__title {
     font-size: 2.4rem;
     padding: 4rem 0 0.5rem 0;
   }
   .gargarroMain__info {
-    padding: 0 5rem 3rem 5rem;
+    padding: 3rem 5rem;
     display: flex; /* Enable flexbox */
     flex-direction: row;
     justify-content: space-between;
@@ -1535,6 +1525,7 @@ button a {
   text-align: center;
   font-size: 1.7rem;
   background-color: #294a44;
+  transform: translateY(-10px);
   color: #ffffff;
   padding: 7rem 0;
   font-family: "Caudex", serif;
