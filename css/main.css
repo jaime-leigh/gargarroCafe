@@ -1590,8 +1590,8 @@ button a {
   margin: 0 auto;
   border-radius: 21px;
   max-width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
+  height: auto;
+  -webkit-object-fit: cover;
      object-fit: cover;
 }
 .gargarroFunctions__item--1 {
