@@ -1645,6 +1645,10 @@ button a {
     flex-direction: row;
     gap: 3rem;
     margin: 0 auto;
+    overflow: hidden;
+  }
+  .gargarroFunctions__image2__img {
+    max-width: 50%;
   }
   .gargarroFunctions__par3--text2 {
     text-align: center;
